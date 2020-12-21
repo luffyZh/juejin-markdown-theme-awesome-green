@@ -1,7 +1,3 @@
-# juejin 默认主题
+# juejin markdown theme awesome green
 
-主题列表：https://github.com/xitu/juejin-markdown-themes
-
-## License
-
-MIT
+@author luffyZh
