@@ -101,7 +101,6 @@ $line-space: 22px;
     position: relative;
     line-height: 1.75;
     border-top: 4px solid #2f845e;
-    background: linear-gradient(180deg, rgba(66,185,131,.1), transparent);
     > code {
       font-size: 12px;
       padding: 15px 12px;
@@ -109,8 +108,8 @@ $line-space: 22px;
       word-break: normal;
       display: block;
       overflow-x: auto;
-      color: #333;
-      background: #f8f8f8;
+      color: #262626;
+      background: linear-gradient(180deg, rgba(66,185,131,.1), transparent);
     }
   }
 
