@@ -137,15 +137,16 @@ $line-space: 22px;
     width: auto;
     max-width: 100%;
     overflow: auto;
-    border: solid 1px #f6f6f6;
+    border: solid 1px #2f8e54;
   }
   thead {
-    background: #f6f6f6;
-    color: #000;
+    background: #2f8e54;
+    color: #fff;
     text-align: left;
+    font-weight: bold;
   }
   tr:nth-child(2n) {
-    background-color: #fcfcfc;
+    background-color: rgba(153,255,188,.1);;
   }
   th,
   td {
