@@ -134,10 +134,14 @@ $line-space: 22px;
     }
   }
 
+  a[class^="footnote"] {
+    margin-left: 4px;
+  }
+
   table {
     display: inline-block !important;
     font-size: 12px;
-    width: auto;
+    width: 100%;
     max-width: 100%;
     overflow: auto;
     border: 2px #2f8e54 solid;
