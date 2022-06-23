@@ -279,7 +279,7 @@ $line-space: 22px;
   }
 
   table {
-    display: inline-block !important;
+    // display: block !important;
     font-size: 12px;
     width: 100%;
     max-width: 100%;
@@ -293,11 +293,11 @@ $line-space: 22px;
     font-weight: bold;
   }
   tr:nth-child(2n) {
-    background-color: rgba(153,255,188,.1);;
+    background-color: rgba(153,255,188,.1);
   }
   th,
   td {
-    width: 100%;
+    // width: 100%;
     padding: 12px 7px;
     line-height: 22px;
   }
