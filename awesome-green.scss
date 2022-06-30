@@ -114,27 +114,28 @@ $line-space: 22px;
     }
 
     > code.language-awesome_error {
-      border: 1px solid #ff4d4f;
+      border: 1px solid #ff4d4f !important;
       border-left-width: 8px;
       font-size: 14px;
       font-weight: bold;
-      padding: 15px 10px;
+      padding: 15px 12px 15px 16px;
       margin: 0;
       word-break: normal;
+      white-space: break-spaces;
       display: block;
       overflow-x: auto;
-      color: #ff4d4f;
+      color: #ff4d4f !important;
       background: linear-gradient(90deg, #fff2f0, transparent) !important;
 
       &:before {
-        content: '!';
-        position: absolute;
-        top: 50%;
-        left: -9px;
-        transform: translateY(-14px);
-        background: #ff4d4f;
-        color: #fff;
-        border: 2px solid #fff;
+        content: '!' !important;
+        position: absolute !important;
+        top: 50% !important;
+        left: -9px !important;
+        transform: translateY(-14px) !important;
+        background: #ff4d4f !important;
+        color: #fff !important;
+        border: 2px solid #fff !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -148,27 +149,28 @@ $line-space: 22px;
     }
 
     > code.language-awesome_warn {
-      border: 1px solid #ffc46f;
+      border: 1px solid #ffc46f !important;
       border-left-width: 8px;
       font-size: 14px;
       font-weight: bold;
-      padding: 15px 10px;
+      padding: 15px 12px 15px 16px;
       margin: 0;
       word-break: normal;
+      white-space: break-spaces;
       display: block;
       overflow-x: auto;
-      color: #ffc46f;
+      color: #ffc46f !important;
       background: linear-gradient(90deg, #fffbe6, transparent) !important;
 
       &:before {
-        content: '☂';
+        content: '☂' !important;
         position: absolute;
-        top: 50%;
-        left: -9px;
-        transform: translateY(-14px);
-        background: #ffc46f;
-        color: #fff;
-        border: 2px solid #fff;
+        top: 50% !important;
+        left: -9px !important;
+        transform: translateY(-14px) !important;
+        background: #ffc46f !important;
+        color: #fff !important;
+        border: 2px solid #fff !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -182,27 +184,28 @@ $line-space: 22px;
     }
 
     > code.language-awesome_success {
-      border: 1px solid #52c41a;
+      border: 1px solid #52c41a !important;
       border-left-width: 8px;
       font-size: 14px;
       font-weight: bold;
-      padding: 15px 10px;
+      padding: 15px 12px 15px 16px;
       margin: 0;
       word-break: normal;
+      white-space: break-spaces;
       display: block;
       overflow-x: auto;
-      color: #52c41a;
+      color: #52c41a !important;
       background: linear-gradient(90deg, #f6ffed, transparent) !important;
 
       &:before {
-        content: '★';
-        position: absolute;
-        top: 50%;
-        left: -9px;
-        transform: translateY(-14px);
-        background: #52c41a;
-        color: #fff;
-        border: 2px solid #fff;
+        content: '✓' !important;
+        position: absolute !important;
+        top: 50% !important;
+        left: -9px !important;
+        transform: translateY(-14px) !important;
+        background: #52c41a !important;
+        color: #fff !important;
+        border: 2px solid #fff !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -216,27 +219,28 @@ $line-space: 22px;
     }
 
     > code.language-awesome_info {
-      border: 1px solid #1890ff;
+      border: 1px solid #1890ff !important;
       border-left-width: 8px;
       font-size: 14px;
       font-weight: bold;
-      padding: 15px 10px;
+      padding: 15px 12px 15px 16px;
       margin: 0;
       word-break: normal;
+      white-space: break-spaces;
       display: block;
       overflow-x: auto;
-      color: #1890ff;
+      color: #1890ff !important;
       background: linear-gradient(90deg, #e6f7ff, transparent) !important;
 
       &:before {
-        content: 'i';
-        position: absolute;
-        top: 50%;
-        left: -9px;
-        transform: translateY(-14px);
-        background: #1890ff;
-        color: #fff;
-        border: 2px solid #fff;
+        content: 'i' !important;
+        position: absolute !important;
+        top: 50% !important;
+        left: -9px !important;
+        transform: translateY(-14px) !important;
+        background: #1890ff !important;
+        color: #fff !important;
+        border: 2px solid #fff !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -364,8 +368,8 @@ $line-space: 22px;
     word-break: break-word;
     border-radius: 2px;
     overflow-x: auto;
-    background-color: #fff5f5;
-    color: #ff502c;
+    background-color: #f6ffed;
+    color: #52c41a;
     font-size: 0.87em;
     padding: 0.065em 0.4em;
   }
