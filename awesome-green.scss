@@ -125,7 +125,7 @@ $line-space: 22px;
       display: block;
       overflow-x: auto;
       color: #ff4d4f !important;
-      background: linear-gradient(90deg, #fff2f0, transparent) !important;
+      background: #fff2f0 !important;
 
       &:before {
         content: '!' !important;
@@ -160,7 +160,7 @@ $line-space: 22px;
       display: block;
       overflow-x: auto;
       color: #ffc46f !important;
-      background: linear-gradient(90deg, #fffbe6, transparent) !important;
+      background: #fffbe6 !important;
 
       &:before {
         content: '☂' !important;
@@ -195,7 +195,7 @@ $line-space: 22px;
       display: block;
       overflow-x: auto;
       color: #52c41a !important;
-      background: linear-gradient(90deg, #f6ffed, transparent) !important;
+      background: #f6ffed !important;
 
       &:before {
         content: '✓' !important;
@@ -230,7 +230,7 @@ $line-space: 22px;
       display: block;
       overflow-x: auto;
       color: #1890ff !important;
-      background: linear-gradient(90deg, #e6f7ff, transparent) !important;
+      background: #e6f7ff !important;
 
       &:before {
         content: 'i' !important;
@@ -283,7 +283,6 @@ $line-space: 22px;
   }
 
   table {
-    // display: block !important;
     font-size: 12px;
     width: 100%;
     max-width: 100%;
@@ -301,7 +300,6 @@ $line-space: 22px;
   }
   th,
   td {
-    // width: 100%;
     padding: 12px 7px;
     line-height: 22px;
   }
