@@ -87,8 +87,8 @@ $line-space: 22px;
     word-break: break-word;
     border-radius: 2px;
     overflow-x: auto;
-    background-color: #fff5f5;
-    color: #ff502c;
+    background-color: #f6ffed;
+    color: #52c41a;
     font-size: 0.87em;
     padding: 0.065em 0.4em;
   }
@@ -100,7 +100,7 @@ $line-space: 22px;
 
     > code {
       font-size: 12px;
-      padding: 15px 12px;
+      padding: 16px 12px;
       margin: 0;
       word-break: normal;
       display: block;
@@ -111,6 +111,11 @@ $line-space: 22px;
       border-left: 1px solid #2f845e;
       border-right: 1px solid #2f845e;
       background: linear-gradient(180deg, rgba(66,185,131,.1), transparent) !important;
+    }
+
+    > code.hljs[lang]:before {
+      top: 8px !important;
+      color: #2f845e !important;
     }
 
     > code.language-awesome_error {
